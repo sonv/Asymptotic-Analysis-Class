@@ -1,0 +1,44 @@
+\documentclass[12pt]{amsart}
+\usepackage[draft]{marktext} 
+%% Remove draft for real article, put twocolumn for two columns
+\usepackage[draft]{svmacro}
+\usepackage[utf8]{inputenc}
+\usepackage{lineno}
+\usepackage[style=alphabetic, backend=biber]{biblatex}
+\addbibresource{bibliography.bib}
+
+%% commentary bubble
+\newcommand{\SV}[2][]{\sidenote[colback=green!10]{\textbf{SV\xspace #1:} #2}}
+
+%% Title 
+\title{ Proposal for a class in asymptotic analysis }
+%\author[1]{Co-author}
+\author{Daniel Cooney}
+\author{Hyunjoon Kim}
+\author{Truong-Son Van}
+%\affil[1]{Institute}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+We propose a class in Asymptotic Analysis as part of the AMCS program at Penn,
+aimed at advanced undergraduate and beginning graduate students.
+Given the diverse background of AMCS students,
+if the department is more ambitious about this class, it may be best splitting 
+this course into two classes, the first deals with formal computations 
+and important concepts/applications/motivations/simulations while the second
+deals with completely rigorous justification of computations introduced in the
+first class.
+
+
+
+
+
+\printbibliography 
+%\bibliography{refs}
+%\bibliographystyle{halpha-abbrv}
+
+
+\end{document}
