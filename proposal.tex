@@ -14,6 +14,7 @@
 \title{ Proposal for a class in asymptotic analysis }
 %\author[1]{Co-author}
 \author{Daniel Cooney}
+\author{Daniel Gomez}
 \author{Hyunjoon Kim}
 \author{Truong-Son Van}
 %\affil[1]{Institute}
@@ -23,7 +24,7 @@
 
 \maketitle
 
-We propose a class in Asymptotic Analysis as part of the AMCS program at Penn,
+We propose a class (series) in Asymptotic Analysis as part of the AMCS program at Penn,
 aimed at advanced undergraduate and beginning graduate students.
 Given the diverse background of AMCS students,
 if the department is more ambitious about this class, it may be best splitting 
@@ -45,15 +46,18 @@ first class.
     \item Hunter, Asymptotic Analysis and Singular Perturbation Theory~\cite{Hunter}
     \item Neu, Singular perturbation in the physical sciences~\cite{Neu2015}
     \item Keener, Principles of Applied Mathematics~\cite{Keener2000}
+    \item Murray, Asymptotic analysis~\cite{Murray1984}
 \end{enumerate}
 
-\subsection*{Topics}
+\section*{Topics}
 
-We propose the following topics:
+\subsection{First class}
+For the first class, we propose the following topics:
 \begin{enumerate}
-    \item Asymptotic expansions
+    \item Asymptotic approximation 
         \begin{enumerate}
             \item Scaling, order relations, roots of equations
+            \item Approximating integral: Laplace and steepest descent methods
         \end{enumerate}
     \item Regular perturbation theory
         \begin{enumerate}
@@ -74,9 +78,11 @@ We propose the following topics:
             \item Effective diffusion, Cell problem
             \item Porous medium equation
         \end{enumerate}
-    \item Hydrodynamic limit
+\item Hydrodynamic limit 
+    (this stuff could be skipped as it is 
+    non-standard and will require a lot of thinking/planning)
         \begin{enumerate}
-            \item Interacting particles
+            \item Interacting particles, examples from statistical phsyics, mean-field games
             \item Propagation of chaos
         \end{enumerate}
 \end{enumerate}
@@ -84,6 +90,22 @@ We propose the following topics:
 The instructor will have to come up with motivating examples from biology, physics,
 economics, etc.
 
+\subsection*{Second class}
+For the second class, we propose the following topics:
+\begin{enumerate}
+    \item Stable and center manifolds
+    \item Averaging and Ergodic theory
+    \item KAM theory
+    \item Homogenization theory
+        \begin{enumerate}
+            \item Two-scale convergence
+            \item Rate of convergence
+            \item Relation between ergodicity and periodic homogenization via scaling limit
+        \end{enumerate}
+    \item Weak KAM
+\end{enumerate}
+The second class is about rigorous justifications of some of the ideas from
+the first class.
 
 
 
